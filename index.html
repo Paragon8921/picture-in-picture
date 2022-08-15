@@ -8,11 +8,26 @@
     <!-- Trick to use Favicon from another site -->
     <link rel="icon" type="image/png" href="software-icon.png" />
 
+    <!-- vvv Google Fonts vvv -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ^^^ Google Fonts ^^^ -->
+
     <link rel="stylesheet" href="style.css" />
 
     <title>Picture In Picture</title>
   </head>
   <body>
+    <!-- Videio -->
+    <video id="video" controls height="360" width="640" hidden></video>
+    <!-- Button -->
+    <div class="button-container">
+      <button id="button">START</button>
+    </div>
     <!-- Script -->
     <script src="script.js"></script>
   </body>
